@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# MERN E-commerce Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack E-commerce Dashboard built using the MERN stack (MongoDB, Express.js, React.js, Node.js).  
+This application allows users to register, login, and manage products through a simple admin dashboard.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User Registration & Login
+- JWT Authentication
+- Add Products
+- View Product List
+- Search Products
+- Update Products
+- Delete Products
+- User-based Product Management
+- MongoDB Database Integration
+- REST API with Express.js
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- React.js
+- React Router DOM
+- CSS / Bootstrap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+MERN-Ecommerce-Dashboard
+│
+├── frontend
+│ ├── src
+│ └── package.json
+│
+├── backend
+│ ├── db
+│ ├── routes
+│ ├── models
+│ ├── index.js
+│ └── package.json
+│
+└── README.md
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone Repository
 
-### `npm run eject`
+```bash
+git clone https://github.com/yourusername/mern-ecommerce-dashboard.git
+Backend Setup
+cd backend
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Create a .env file and add:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Run backend:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
+Frontend Setup
 
-## Learn More
+Open another terminal:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+cd frontend
+npm install
+npm start
+Screens
+Authentication
+Signup Page
+Login Page
+Dashboard
+Product Listing
+Add Product
+Update Product
+Delete Product
+Search Product
+API Features
+Method	Endpoint	Description
+POST	/register	Create new user
+POST	/login	User login
+POST	/add-product	Add product
+GET	/products	Get products
+PUT	/product/:id	Update product
+DELETE	/product/:id	Delete product
+Future Improvements
+Shopping Cart
+Order Management
+Payment Integration
+Product Images Upload
+User Roles (Admin/User)
+Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Hanzala Khan
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Frontend Developer | MERN Stack Developer
